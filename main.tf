@@ -1,6 +1,6 @@
 # Configure the Google Cloud provider
 provider "google" {
-  project = "test"
+  project = "unified-icon-364119"
   region  = "us-central1"
 }
 
@@ -8,7 +8,7 @@ provider "google" {
 resource "google_compute_instance" "example" {
   name          = "example"
   machine_type  = "f1-micro"
-  zone          = "us-central-a"
+  zone          = "us-central1-a"
   
   boot_disk {
     initialize_params {
