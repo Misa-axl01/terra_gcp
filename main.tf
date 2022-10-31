@@ -12,7 +12,7 @@ resource "google_compute_instance" "example" {
   
   boot_disk {
     initialize_params {
-      image = "ubuntu-1604-lts"
+      image = "centos-7-v20200309"
     }
   }
   
