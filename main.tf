@@ -17,7 +17,7 @@ resource "google_compute_instance" "example" {
   }
   
   network_interface {
-    network = "test",
+    network = "test"
     subnetwork = "test-priv-1"
 
     access_config {
