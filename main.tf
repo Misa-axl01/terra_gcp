@@ -17,7 +17,8 @@ resource "google_compute_instance" "example" {
   }
   
   network_interface {
-    network = "test-priv-1"
+    network = "test",
+    subnetwork = "test-priv-1"
 
     access_config {
       // Ephemeral IP
