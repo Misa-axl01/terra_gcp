@@ -8,7 +8,7 @@ provider "google" {
 resource "google_compute_instance" "example" {
   name          = "example"
   machine_type  = "f1-micro"
-  zone          = "us-central-b"
+  zone          = "us-central-a"
   
   boot_disk {
     initialize_params {
