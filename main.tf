@@ -25,5 +25,5 @@ resource "google_compute_instance" "example" {
     }
   }
   
-  tags = ["terraform-spectra"]
+  tags = ["terraform-specs"]
 }
