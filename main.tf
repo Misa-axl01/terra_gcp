@@ -7,7 +7,7 @@ provider "google" {
 # Create a Google Compute instance
 resource "google_compute_instance" "example" {
   name          = "example"
-  machine_type  = "n1-standard"
+  machine_type  = "e2-micro"
   zone          = "us-central1-a"
   
   boot_disk {
